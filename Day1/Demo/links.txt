@@ -18,7 +18,13 @@ vs core : git config --global core.editor "code --wait"
 ============> gitHub : server store repos 
 
 
+=======================> clone repo ===> copy of files on local 
+clone repo : git clone repolink 
 
+======================= Acces Repo : Collaborator 
+setting of repo : Collaborators ===> add People (username , gemail account)
+
+======================>
 
 Steps :
   Upload on remote repo on git 
