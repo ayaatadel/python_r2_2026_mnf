@@ -5,9 +5,23 @@
 ---> initialze git : git init
 check status : git status
 add file : git add file_name (new file || new updates on this file)
-new commit : git commit -m "msg" 
+new commit : git commit -m "msg"    ===========> new version 
 
+save currenet changes on last commit : git commit --amend ======> tab (agree on message) --> modify message
 
+show commmits : git log || git log --oneline
+
+git log   : (commit_id || msg || autherName || date) 
+==> commit e5efd6c1518db9455a9d5e69be9e834a81948f4d (HEAD -> master)
+Author: ayaatadel <ayaatadel28@gmail.com>
+Date:   Tue Mar 3 10:05:43 2026 +0200
+
+    docs:add git commands
+==================================
+git log --oneline : (id , msg)
+e5efd6c (HEAD -> master) docs:add git commands
+928a791 feat:add new feature navbar and navbarlinks
+e775629 docs:add lec1 notes in github course
 
 
 
@@ -37,4 +51,10 @@ Updates
 
 
 
+   ===================================================================> 
+                                             file (added first) ==> git add fileName
+                                             git commit -a -m "msg"
+                                             git commit -am "msg"
+                                              -a : add   || -m : msg
+   
                                                                              ==============> 
