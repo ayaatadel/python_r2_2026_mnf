@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0;
+    margin: o;
+
+}
+
+:root{
+--main-color:gray;
+}
+
+nav ul li {
+    display: flex;
+    justify-content: space-around;
+    padding: 3px;
+    color: blueviolet;
+    background-color: var(--main-color);
+}
+
+nav ul li a{
+    text-align: center;
+    text-decoration: none;
+    color: brown;
+    padding: 2px;
+}
